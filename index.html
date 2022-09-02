@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Action </title>
+  <!-- fave icon -->
+  <link rel="icon" type="image/x-icon" href="./images/trophy-solid.svg">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+  <!-- tailwind CDN link -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body >
+  <!-- header section -->
+  <header class="bg-black flex">
+    <img src="./images/Banner Image.png" alt="" class="w-1/5 ">
+    <div class="text-white text-center align-middle mt-20" >
+      <h1 class="text-7xl font-extrabold my-10 text-orange-600" style="font-family: 'Kaushan Script', cursive;">Top Most Player Slected</h1>
+      <p class="text-lg font-medium text-slate-400 px-16">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit <span>officia consequat duis enim velit mollit. Exercitation veniam consequat sunt</span>
+        <p class="mb-20 text-slate-500">nostrud amet.</p>
+      </p>
+    </div>
+    <img src="./images/banner image 2.png" class="w-1/5 align-end" alt="">
+  </header>
+  <main class="bg-stone-900">
+    <section class="w-4/5 mx-auto flex">
+      <div class="grid grid-cols-3 gap-4 mt-20">
+        <div class="bg-black text-white text-center  border border-slate-500 h-96">
+          <img src="./images/image-3.jpeg" class="w-screen h-3/5" alt="...">
+          <div class="card-body">
+            <h2 class="text-2xl fond-bold my-2">Kylian Mbappé</h2>
+          <p class="text-slate-500 text-lg font-medium ">
+          <small>36 Goals</small> . <small>120 Assist</small>
+          </p>
+          <div class="align-middle">
+            <button class="bg-blue-600 text-lg font-medium px-20 py-1 rounded my-5 btn-select" onclick="addPlayerToCart(this)" disableButton(btn) id="btn-1">SELECT</button>
+          </div>   
+          </div>     
+        </div>
+
+        <div class="bg-black text-white text-center  border border-slate-500 h-96">
+          <img src="./images/image-1.jpeg" class="w-screen h-3/5" alt="...">
+          <div class="card-body">
+            <h2 class="text-2xl fond-bold my-2">Gareth Bale</h2>
+            <p class="text-slate-500 text-lg font-medium "><small>36 Goals</small> . <small>120 Assist</small></p>
+            <div class="align-middle">
+              <button class="bg-blue-600 text-lg font-medium px-20 py-1 rounded my-5 btn-select" onclick="addPlayerToCart(this)" id="btn-2">SELECT</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-black text-white text-center  border border-slate-500 h-96">
+          <img src="./images/image-2.jpeg" class="w-screen h-3/5" alt="...">
+          <div class="card-body">
+            <h2 class="text-2xl fond-bold my-2">Ronaldinho</h2>
+            <p class="text-slate-500 text-lg font-medium "><small>36 Goals</small> . <small>120 Assist</small></p>
+            <div class="align-middle">
+              <button class="bg-blue-600 text-lg font-medium px-20 py-1 rounded my-5 btn-select" onclick="addPlayerToCart(this)" id="btn-3">SELECT</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-black text-white text-center  border border-slate-500 h-96">
+          <img src="./images/image-4.jpeg" class="w-screen h-3/5" alt="...">
+          <div class="card-body">
+            <h2 class="text-2xl fond-bold my-2">Lionel Messi</h2>
+            <p class="text-slate-500 text-lg font-medium "><small>36 Goals</small> . <small>120 Assist</small></p>
+            <div class="align-middle">
+              <button class="bg-blue-600 text-lg font-medium px-20 py-1 rounded my-5 btn-select" onclick="addPlayerToCart(this)" id="btn-4">SELECT</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-black text-white text-center 0 border border-slate-500 h-96">
+          <img src="./images/image-5.jpeg" class="w-screen h-3/5" alt="...">
+          <div class="card-body">
+            <h2 class="text-2xl fond-bold my-2">Cristiano Ronaldo</h2>
+            <p class="text-slate-500 text-lg font-medium "><small>36 Goals</small> . <small>120 Assist</small></p>
+            <div class="align-middle">
+              <button class="bg-blue-600 text-lg font-medium px-20 py-1 rounded my-5 btn-select" onclick="addPlayerToCart(this)" id="btn-5">SELECT</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-black text-white text-center 0 border border-slate-500 h-96">
+          <img src="./images/image-6.jpeg" class="w-screen h-3/5" alt="...">
+          <div class="card-body">
+            <h2 class="text-2xl fond-bold my-2">Neymar Jr</h2>
+            <p class="text-slate-500 text-lg font-medium "><small>36 Goals</small> . <small>120 Assist</small></p>
+            <div class="align-middle">
+              <button class="bg-blue-600 text-lg font-medium px-20 py-1 rounded my-5 btn-select" onclick="addPlayerToCart(this)" id="btn-6">SELECT</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-black text-white text-center 0 border border-slate-500 h-96">
+          <img src="./images/image-7.jpeg" class="w-screen h-3/5" alt="...">
+          <div class="card-body">
+            <h2 class="text-2xl fond-bold my-2">Sergio Ramos</h2>
+            <p class="text-slate-500 text-lg font-medium "><small>36 Goals</small> . <small>120 Assist</small></p>
+            <div class="align-middle">
+              <button class="bg-blue-600 text-lg font-medium px-20 py-1 rounded my-5 btn-select" onclick="addPlayerToCart(this)" id="btn-7">SELECT</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-black text-white text-center 0 border border-slate-500 h-96">
+          <img src="./images/image-9.jpeg" class="w-screen h-3/5" alt="...">
+          <div class="card-body">
+            <h2 class="text-2xl fond-bold my-2">Paul Pogba</h2>
+          <p class="text-slate-500 text-lg font-medium "><small>36 Goals</small> . <small>120 Assist</small></p>
+            <div class="align-middle">
+              <button class="bg-blue-600 text-lg font-medium px-20 py-1 rounded my-5 btn-select" onclick="addPlayerToCart(this)" id="btn-8">SELECT</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-black text-white text-center 0 border border-slate-500 h-96">
+          <img src="./images/image-8.jpeg" class="w-screen h-3/5" alt="...">
+          <div class="card-body">
+            <h2 class="text-2xl fond-bold my-2">Karim Benzema</h2>
+          <p class="text-slate-500 text-lg font-medium "><small>36 Goals</small> . <small>120 Assist</small></p>
+          <div class="align-middle">
+            <button class="bg-blue-600 text-lg font-medium px-20 py-1 rounded my-5 btn-select" onclick="addPlayerToCart(this)" id="btn-9">SELECT</button>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- aside -->
+      <div class="mt-20 ml-5 ">
+        <div class="bg-black text-white   border border-slate-500 h-2/6 px-5">
+          <h2 class="text-2xl fond-bold text-center mt-5 underline decoration-red-500 decoration-dotted decoration-4 mb-5" >Selected - V</h2>
+          <div >
+            <ol id="slected-player-list" class="list-decimal list-inside leading-10 list li">
+              <!-- <li></li> -->
+          </ol>
+          </div>
+        </div>  
+      
+        <!-- player budget section -->
+        <div class="bg-black text-white  border border-slate-500 px-5 py-7 mt-5 ">
+          <h2 class="text-2xl fond-bold text-center mb-8 underline decoration-red-500 decoration-dotted decoration-4">Budget</h2>
+          <label class="mr-5" for="">Per Player</label>
+          <input class="w-2/4 px-3 py-1 bg-black border-2 border-slate-500" id="budget-field" type="number" name="" id="">
+          <button class="bg-blue-600 text-lg font-medium px-16 py-1 rounded my-5" id="btn-calculate">Calculate</button>
+          <p class="mb-2">Player Expenses<span class="ml-5">$</span><span id="total-player-cost">5000</span></p>
+
+          <label class="mr-8" for="">Manager</label>
+          <input class="w-2/4 px-3 py-1 bg-black border-2 border-slate-500 " type="number" name="" id="manager-expenses"><br><br>
+          <label class="mr-12" for="">Coach</label>
+          <input class="w-2/4 px-3 py-1 bg-black border-2 border-slate-500 " type="number" name="" id="coach-expenses">
+          <button class="bg-blue-600 text-lg font-medium px-10 py-1 rounded my-5" id="btn-total-expenses" >Calculate Total</button>
+          <p class="mb-5">Total <span class="ml-24 text-red-500 font-medium">$</span><span class="text-red-500 font-medium" id="total-expenses" >11000</span></p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-32 text-white text-center font-medium  h-32">
+      <hr>
+      <p class="align-middle mt-16">Copyright@ 2022 All Rights Reserved.</p>
+    </footer>
+  </main>
+
+  <script src="js/common.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
